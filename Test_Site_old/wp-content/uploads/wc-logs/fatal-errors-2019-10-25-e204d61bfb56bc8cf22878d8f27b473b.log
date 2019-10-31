@@ -1,0 +1,19 @@
+2019-10-25T14:46:22+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /var/www/html/Test_Site/wp-content/plugins/import-html-pages/html-importer.php:610
+Stack trace:
+#0 /var/www/html/Test_Site/wp-content/plugins/import-html-pages/html-importer.php(291): HTML_Import->get_post('/var/www/hp.bak...', false)
+#1 /var/www/html/Test_Site/wp-content/plugins/import-html-pages/html-importer.php(320): HTML_Import->get_files_from_directory('/var/www/hp.bak...')
+#2 /var/www/html/Test_Site/wp-content/plugins/import-html-pages/html-importer.php(1098): HTML_Import->get_files_from_directory('/var/www/hp.bak')
+#3 /var/www/html/Test_Site/wp-content/plugins/import-html-pages/html-importer.php(1128): HTML_Import->import()
+#4 /var/www/html/Test_Site/wp-admin/admin.php(344): HTML_Import->dispatch()
+#5 {main}
+  thrown in /var/www/html/Test_Site/wp-content/plugins/import-html-pages/html-importer.php on line 610
+
+2019-10-25T14:47:00+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /var/www/html/Test_Site/wp-content/plugins/import-html-pages/html-importer.php:610
+Stack trace:
+#0 /var/www/html/Test_Site/wp-content/plugins/import-html-pages/html-importer.php(291): HTML_Import->get_post('/var/www/hp.bak...', false)
+#1 /var/www/html/Test_Site/wp-content/plugins/import-html-pages/html-importer.php(1098): HTML_Import->get_files_from_directory('/var/www/hp.bak')
+#2 /var/www/html/Test_Site/wp-content/plugins/import-html-pages/html-importer.php(1128): HTML_Import->import()
+#3 /var/www/html/Test_Site/wp-admin/admin.php(344): HTML_Import->dispatch()
+#4 {main}
+  thrown in /var/www/html/Test_Site/wp-content/plugins/import-html-pages/html-importer.php on line 610
+

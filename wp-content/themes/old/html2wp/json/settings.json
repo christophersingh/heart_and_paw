@@ -1,0 +1,56 @@
+{
+    "widgets": [],
+    "menus": {
+        "locations": [],
+        "links": []
+    },
+    "pages": [
+        {
+            "title": "heart+paw",
+            "slug": "front-page",
+            "template": "front-page.php",
+            "file_name": "index.html"
+        },
+        {
+            "title": "Downloads",
+            "slug": "downloads",
+            "template": "downloads.php",
+            "file_name": "_downloads.html"
+        },
+        {
+            "title": "heart+paw",
+            "slug": "events",
+            "template": "events.php",
+            "file_name": "events.html"
+        },
+        {
+            "title": "heart+paw",
+            "slug": "locations",
+            "template": "locations.php",
+            "file_name": "locations.html"
+        },
+        {
+            "title": "heart+paw",
+            "slug": "policies",
+            "template": "policies.php",
+            "file_name": "policies.html"
+        },
+        {
+            "title": "heart+paw",
+            "slug": "services",
+            "template": "services.php",
+            "file_name": "services.html"
+        }
+    ],
+    "forms": [],
+    "forms_map": {
+        "front-page": [],
+        "downloads": [],
+        "events": [],
+        "locations": [],
+        "policies": [],
+        "services": []
+    },
+    "posts_per_page": 0,
+    "taxonomies": []
+}

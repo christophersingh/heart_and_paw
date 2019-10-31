@@ -1,0 +1,4 @@
+2019-10-27T15:21:35+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /var/www/html/Test_Site/wp-content/plugins/simple-live-editor/admin/class-simple-live-editor-admin.php(415) : eval()'d code on line 61
+
+2019-10-27T15:21:46+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /var/www/html/Test_Site/wp-content/plugins/simple-live-editor/admin/class-simple-live-editor-admin.php(415) : eval()'d code on line 39
+

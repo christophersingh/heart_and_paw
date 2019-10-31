@@ -1,0 +1,28 @@
+{
+  "name": "simple-live-editor",
+  "version": "2.1",
+  "description": "Simple live editor for WordPress",
+  "main": "simple-live-editor.php",
+  "author": "Harri Heljala <harri@htmltowordpress.io>",
+  "license": "GPL-2.0+",
+  "homepage": "http://htmltowordpress.io",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:html2wp/simple-live-editor.git"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "simple",
+    "live",
+    "edit",
+    "content",
+    "management"
+  ],
+  "dependencies": {
+    "jquery-query-object": "^2.2.3",
+    "remodal": "^1.0.7",
+    "sortablejs": "git://github.com/RubaXa/Sortable"
+  },
+  "devDependencies": {}
+}

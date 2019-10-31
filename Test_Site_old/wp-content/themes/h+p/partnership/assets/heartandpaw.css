@@ -1,0 +1,674 @@
+@font-face {
+    font-family: "Sailec";
+    src: url("../fonts/Sailec/Sailec.otf");
+}
+
+@font-face {
+    font-family: "SailecBold";
+    src: url("../fonts/Sailec/SailecBold.otf");
+}
+
+@font-face {
+    font-family: "SailecLight";
+    src: url("../fonts/Sailec/SailecLight.otf");
+}
+
+@font-face {
+    font-family: "SailecLightItalic";
+    src: url("../fonts/Sailec/SailecLightItalic.otf");
+}
+
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 16px/1.8em "Sailec", sans-serif;
+}
+
+footer {
+    background: darkgray;
+}
+
+.banner .w3-top {
+    position: absolute;
+}
+
+.banner .w3-button {
+    font: 400 1em/1.8em "SailecBold", sans-serif;
+    color: #ddd;
+    user-select: none;
+    outline: none !important;
+    opacity: 0.9;
+    padding: 8px 32px;
+}
+
+.banner .w3-button:hover {
+    opacity: 1;
+    color: white !important;
+    background-color: transparent !important;
+}
+
+.partnership-columns {
+    color: #666666;
+    font: 100 1em/1.2em "SailecLight", sans-serif;
+}
+
+.partnership-columns li {
+    color: #666666;
+    font: 100 1em/1.2em "SailecLight", sans-serif;
+}
+
+.column-icon {
+    width: 40%;
+}
+
+.banner .w3-disabled {
+    font: 400 1em/1.8em "SailecBold", sans-serif;
+    color: white;
+    /* text-decoration: underline; */
+    cursor: default;
+    opacity: 1;
+}
+
+.underline {
+    border-bottom: 2px white solid;
+}
+
+.team-member h2 {
+    font: 400 1em/1.3em "SailecBold", sans-serif;
+    margin: 16px 0 0 0;
+    color: darkslategrey;
+}
+
+.team-member p {
+    font: 100 .7em/1.3em "Sailec", sans-serif;
+    margin-top: .5vh;
+    margin-bottom: 6vh;
+}
+
+a.team-link:link {
+    text-decoration: none;
+    color: darkslategrey;
+  }
+  
+  a.team-link:visited {
+    text-decoration: none;
+    color: darkslategrey;
+  }
+  
+  a.team-link:hover {
+    text-decoration: underline;
+    color: darkslategrey;
+  }
+  
+  a.team-link:active {
+    text-decoration: underline;
+    color: darkslategrey;
+  }
+  
+
+h2 {
+    font: 100 2em/2em "SailecBold", sans-serif;
+    color: #155750;
+}
+
+h3 {
+    font: 100 1.2em/1.4em "SailecBold", sans-serif;
+    color: darkslategrey;
+    /* line-height: 0.5em; */
+}
+
+p {
+    font: 100 1em/1.3em "Sailec", sans-serif;
+    color: darkslategrey;
+}
+
+.banner,
+.our-vision,
+.leadership-team-hero,
+.builders {
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.linkedin {
+    height: 100vh;
+}
+
+.with-you-bg {
+    height: 90vh;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.linkedin-logobar {
+    /* height: 10vh!important; */
+    background-color: #155750;
+}
+
+.w3-bottombar {
+    border-bottom: none !important;
+}
+
+.our-mission-small-screen {
+    background-color: white;
+    height: 100vh;
+}
+
+
+
+.our-mission .subsection-header {
+    font: 100 2em/0.5em "SailecBold", sans-serif;
+    color: white;
+}
+
+.our-mission .subsection-body {
+    font: 100 2.2em/2.2em "SailecLight", sans-serif;
+    color: white;
+    line-height: 130%;
+    /* padding-top: 20px; */
+}
+
+.why-us .subsection-header {
+    font: 100 2em/0.5em "SailecBold", sans-serif;
+    color: white;
+    /* text-transform: uppercase; */
+}
+
+.why-us .subsection-body {
+    font: 100 1.2em/1.5em "SailecLight", sans-serif;
+    color: white;
+    line-height: 130%;
+}
+
+
+.why-us-small-screen {
+    background-color: white;
+    height: 180vh;
+}
+
+
+.build-with-us {
+    width: 60vw;
+}
+
+.build-with-us .subsection-header {
+    font: 100 2em/1.1em "SailecBold", sans-serif;
+    color: white;
+    /* text-transform: uppercase; */
+}
+
+.build-with-us .subsection-body {
+    font: 100 1.1em/1em "SailecLight", sans-serif;
+    color: white;
+    line-height: 120%;
+}
+
+
+
+
+.build-with-us-pillars .subsection-header {
+    font: 100 1.5em/1.1em "SailecBold", sans-serif;
+    color: white;
+    /* text-transform: uppercase; */
+}
+
+.build-with-us-pillar {
+    /* temporary. this is a clone of above to over-ride */
+    font: 100 .8em/1em "SailecLight", sans-serif;
+    color: white;
+    line-height: 120%; 
+}
+
+
+
+
+.build-with-us-small-screen {
+    background-color: white;
+    height: 110vh;
+    width: 110vw;
+}
+
+.our-vision .subsection-header {
+    font: 100 2em/0.5em "SailecBold", sans-serif;
+    color: white;
+}
+
+.our-vision .subsection-body {
+    font: 100 2.2em/2.2em "SailecLight", sans-serif;
+    color: white;
+    line-height: 130%;
+    /* padding-top: 20px; */
+}
+
+
+
+
+.our-leadership-team {
+    background-color: white;
+    min-height: 100%;
+}
+
+.team-member-photo {
+    /* clip-path: url("../img/paw-mask.svg") */
+    clip-path: circle(80px at center);
+    -webkit-clip-path: circle(80px at center);
+}
+
+.banner-brand {
+    background: url("../img/Vegas-0047_414.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.banner-team {
+    background: url("../img/Justin-veenema_414.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.banner-partnership {
+    background: url("../img/Img_3312_414.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.banner-join {
+    background: url("../img/Catherine-hea_414.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.parternship-divider {
+    background: url("../img/DSC_0536_414.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.builders {
+    background: url("../img/Dog_Exam_Room_414.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.our-vision {
+    background: url("../img/Anusha-barwa_414.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+.leadership-team-hero {
+    background: url("../img/Sarastroman12-414.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+    
+}
+
+.linkedin {
+    background: url("../img/AdobeStock_178979392_414.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.with-you-bg {
+    background: url("../img/Sarastroman12_414.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+
+.banner .logo {
+    width: 174px;
+    margin-left: 36px !important;
+    margin-top: 36px !important;
+}
+
+.banner p {
+     /* font: 100 1em/1.3em "Sailec", sans-serif; */
+        color: white;
+}
+
+.banner h3 {
+    color: white;
+}
+
+.banner .large-screen-navbar {
+    margin-top: 36px !important;
+    margin-right: 36px !important;
+}
+
+.large-copy-block {
+    background-color: white;
+    min-height: 80vh;
+    overflow: auto;
+    margin: 2.5vh 12.4vw 2.5vh 12.4vw !important;
+}
+
+.bracket-block {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        text-align: center;
+}
+
+
+
+.large-copy-block h3 {
+    font: 100 1.6em/1.4em "SailecBold", sans-serif;
+    color: darkslategrey;
+}
+
+.large-copy-block .differentiation-column {
+    color: #666666;
+    font: 100 1em/1.2em "SailecLight", sans-serif;
+}
+
+.large-copy-block .subsection-header {
+    font: 100 1.4em/1.5em "SailecBold", sans-serif;
+    color: #155750;
+}
+
+.large-copy-block .subsection-body {
+    font: 100 1em/1.4em "Sailec", sans-serif;
+    color: darkslategrey;
+    padding: 40px;
+    text-align: left !important;
+}
+
+.large-copy-block .subsection-capline {
+    font: 100 1em/1.1em "SailecBold", sans-serif;
+    color: #155750;
+}
+
+.large-copy-block ul {
+    font: 100 1em/1.4em "SailecLight", sans-serif;
+    list-style: none;
+    color: darkslategrey;
+    text-align: left;
+}
+
+.large-copy-block li {
+    padding-bottom: 10px;
+}
+
+.with-you-bg .subsection-header {
+    font: 100 2em/1.2em "SailecBold", sans-serif;
+    color: white;
+}
+
+.section-description-block {
+    background-color: white;
+    min-height: 100%;
+}
+
+.section-description-block .subsection-header {
+    font: 30pt "SailecLightItalic", sans-serif;
+    color: rgb(255, 0, 0);
+}
+
+.section-description-block .subsection-body {
+    font: 10pt "SailecLight", sans-serif;
+    color: darkslategrey;
+}
+
+.section-description-block ul {
+    font: 8pt "SailecLightItalic", sans-serif;
+    list-style: none;
+    text-align: left;
+}
+
+.section-description-block li {
+    padding-bottom: 10px;
+}
+
+
+.regional-approach {
+    margin-top: 10vh;
+    /* margin-bottom: 0vh; */
+    width: 100%;
+    min-height: 50vh;
+}
+
+.regional-approach .regional-map {
+    /* padding-right: 5vw;  
+    padding-left: 2vw; */
+    margin: 0 5vw 0 2vw;
+}
+
+.regional-approach .regional-approach-copy {
+    padding: 8% 5vw 0 5vw;
+    margin-left: 4vw;
+
+}
+
+.regional-approach .regional-approach-header {
+    font: 100 1.6em/1.4em "SailecBold", sans-serif;
+    color: darkslategrey;
+    /* text-transform: uppercase; */
+}
+
+.regional-approach p {
+    padding-right: 10vw;
+}
+
+.partner-block {
+    margin: 5vh 10vh 0vh 10vh;
+    /* min-height: 60%; */
+    vertical-align: middle;
+}
+
+.partner-block .left-block {
+    font-family: "Sailec", sans-serif;
+    text-align: left;
+    padding-left: 4vw;
+}
+
+.partner-block h3 {
+    font: 100 1.6em/1.4em "SailecBold", sans-serif;
+    color: darkslategrey;
+    /* line-height: 0.5em; */
+}
+
+.partner-block .partnership-columns {
+    color: #666666;
+    font: 100 1em/1.2em "SailecLight", sans-serif;
+}
+
+.form-area {
+    min-height: 60%;
+    display: flex;
+    left: 25%;
+    right: 25%;
+    /* background-image: url("img/dogpic.jpg"); */
+}
+
+.contact-form {
+    width: 80%;
+    margin: 10vh auto;
+}
+.contact-form .subsection-header {
+    font: 100 1.3em/1.1em "SailecBold", sans-serif;
+    color: white;
+}
+
+.contact-form .thank-you-message {
+    font: 100 1.6em/1.4em "SailecBold", sans-serif;
+    color: white;
+}
+
+.contact-form .w3-container {
+    padding: 0;
+}
+
+input[type=text],
+input[type=email], 
+input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 0px;
+    resize: none;
+}
+
+input[type=text],
+input[type=email], 
+input[type=tel],
+textarea {
+    background-color: rgba(255, 255, 255, .3);
+    outline: none;
+}
+
+input[type=text]:focus,
+input[type=email]:focus, 
+input[type=tel]:focus,
+textarea:focus
+ {
+    box-shadow: 0 0 5px rgba(21, 87, 20, 1);
+    border: 1px solid rgba(21, 87, 20, 1);
+    background-color: white;
+}
+
+input[type=submit] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 0px;
+}
+
+input[type=submit]:hover {
+    background-color: darkslategray;
+}
+
+input[type=button] {
+    padding: 8px 20px;
+    margin: 0px 0;
+    background-color: rgba(48, 48, 48, .3);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 0px;
+}
+
+input[type=button]:hover {
+    background-color: darkslategray;
+}
+
+.form-text-block {
+    width: 30%;
+    height: 60%;
+    background-color: white;
+    padding: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+
+}
+
+.column-icon {
+    width: 40%;
+}
+
+/* For devices 415px and larger: */
+@media only screen and (min-width: 415px) {
+    .banner-brand {
+        background: url("../img/Vegas-0047_1600.jpg") no-repeat right top;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .banner-team {
+        background: url("../img/Justin-veenema_1600.jpg") no-repeat right top;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .banner-partnership {
+        background: url("../img/Img_3312_1600.jpg") no-repeat right top;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .builders {
+        background: url("../img/Dog_Exam_Room_1600.jpg") no-repeat center center;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .partnership-divider {
+        background: url("../img/DSC_0536_1600.jpg") no-repeat right top;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .banner-join {
+        background: url("../img/Catherine-hea_1600.jpg") no-repeat right top;
+        width: 100%;
+        background-size: cover;
+    }
+
+
+    .our-vision {
+        background: url("../img/Anusha-barwa_1600.jpg") no-repeat center top;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .linkedin {
+        background: url("../img/AdobeStock_178979392_1600.jpg") no-repeat right top;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .with-you-bg {
+        background: url("../img/Sarastroman12_1600.jpg") no-repeat center top;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .leadership-team-hero {
+        background: url("../img/Sarastroman12-414.jpg") no-repeat center top;
+        width: 100%;
+        background-size: cover;
+    }
+
+
+    .contact-form {
+        width: 50%;
+    }
+
+    .contact-form .subsection-header {
+        font: 100 1.6em/1.1em "SailecBold", sans-serif;
+    }
+
+    .contact-form .thank-you-message {
+        font: 100 2em/1.6em "SailecBold", sans-serif;
+        color: white;
+    }
+    .regional-approach .regional-approach-copy {
+        margin-left: 0;
+    
+    }
+}
